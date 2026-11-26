@@ -2,7 +2,7 @@
 
 Open `index.html` in a browser to preview the English academic portfolio. The site works offline, and publication links open their respective online records.
 
-Edit the four sections in `index.html` and the responsive layout in `style.css`. The `assets` folder holds the portrait and a decorative RNA strand illustration.
+Edit the sections in `index.html` and the responsive layout in `style.css`. The `assets` folder holds the portrait, review figures, and decorative illustrations.
 
 ## GitHub Pages
 

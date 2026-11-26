@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 190">
+  <defs>
+    <g id="lipid" stroke="#436d59" stroke-width="2.4" stroke-linecap="round">
+      <path d="m-3 4-2 10 2 8m6-18 2 10-2 8" fill="none"/>
+      <circle r="5" fill="#c3d6bc"/>
+    </g>
+    <g id="leaflet">
+      <use href="#lipid" x="0"/><use href="#lipid" x="16"/><use href="#lipid" x="32"/><use href="#lipid" x="48"/><use href="#lipid" x="64"/><use href="#lipid" x="80"/><use href="#lipid" x="96"/><use href="#lipid" x="112"/><use href="#lipid" x="128"/><use href="#lipid" x="144"/><use href="#lipid" x="160"/><use href="#lipid" x="176"/>
+    </g>
+  </defs>
+  <g transform="translate(31 114) rotate(-8)">
+    <use href="#leaflet"/><use href="#leaflet" transform="translate(0 47) scale(1 -1)"/>
+    <path d="M28-8c13-28 27 20 47-4s28-48 46-32 26 9 35-8" fill="none" stroke="#39705c" stroke-width="4" stroke-linecap="round"/>
+    <path d="m76-13-6-20-20-10m20 10 8-18m39 5 11-19 21-2m-21 2-5-15" fill="none" stroke="#ad633a" stroke-width="2.5"/>
+    <g fill="#d69b62"><circle cx="50" cy="-43" r="5"/><circle cx="78" cy="-51" r="5"/><circle cx="149" cy="-67" r="5"/><circle cx="123" cy="-80" r="5"/></g>
+  </g>
+</svg>
