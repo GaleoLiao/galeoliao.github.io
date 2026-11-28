@@ -196,3 +196,42 @@ footer { padding-block: 1.5rem; }
   nav a { padding: .35rem clamp(.12rem, 1vw, .45rem); font-size: .9rem; }
   .bar { gap: .25rem; padding-block: .5rem; }
 }
+
+
+.closing-quote {
+  margin: 0;
+  padding: clamp(2.5rem, 6vw, 5rem) 5.5%;
+  text-align: center;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+}
+.closing-quote::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2px;
+  margin: 0 auto 1.3rem;
+  background: var(--accent);
+}
+.closing-quote blockquote { margin: 0; }
+.closing-quote p { margin: 0 auto; text-wrap: balance; }
+.closing-quote p:lang(zh-Hans) {
+  color: var(--accent);
+  font: 400 clamp(1.45rem, 3.2vw, 2.65rem)/1.5 "Songti SC", "Noto Serif CJK SC", SimSun, serif;
+  letter-spacing: .055em;
+}
+.closing-quote p:lang(zh-Hans) span { display: inline-block; }
+.closing-quote p:lang(en) {
+  max-width: 43em;
+  margin-top: .75rem;
+  font: italic clamp(1rem, 1.5vw, 1.25rem)/1.55 Georgia, serif;
+}
+.closing-quote figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .2rem .9rem;
+  margin-top: 1.2rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
