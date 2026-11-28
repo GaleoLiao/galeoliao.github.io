@@ -199,8 +199,8 @@ footer { padding-block: 1.5rem; }
 
 
 .closing-quote {
-  margin: 1rem 0 0;
-  padding: clamp(2.25rem, 4vw, 3.5rem) 5.5% clamp(1.4rem, 2.5vw, 2rem);
+  margin: clamp(2.5rem, 5vw, 4rem) 0 0;
+  padding: 1.35rem 5.5% .85rem;
   text-align: center;
   background: var(--surface);
   border-top: 1px solid var(--line);
@@ -210,28 +210,28 @@ footer { padding-block: 1.5rem; }
   display: block;
   width: 2rem;
   height: 2px;
-  margin: 0 auto .9rem;
+  margin: 0 auto .4rem;
   background: var(--accent);
 }
 .closing-quote blockquote { margin: 0; }
 .closing-quote p { margin: 0 auto; text-wrap: balance; }
 .closing-quote p:lang(zh-Hans) {
   color: var(--accent);
-  font: 400 clamp(1.25rem, 2.6vw, 2.1rem)/1.5 "Songti SC", "Noto Serif CJK SC", SimSun, serif;
+  font: 400 clamp(1.05rem, 1.6vw, 1.35rem)/1.45 "Songti SC", "Noto Serif CJK SC", SimSun, serif;
   letter-spacing: .055em;
 }
 .closing-quote p:lang(zh-Hans) span { display: inline-block; }
 .closing-quote p:lang(en) {
   max-width: 43em;
-  margin-top: .75rem;
-  font: italic clamp(.97rem, 1.3vw, 1.12rem)/1.55 Georgia, serif;
+  margin-top: .25rem;
+  font: italic clamp(.9rem, 1.1vw, .98rem)/1.45 Georgia, serif;
 }
 .closing-quote figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: .2rem .9rem;
-  margin-top: .85rem;
+  margin-top: .45rem;
   color: var(--muted);
-  font-size: .85rem;
+  font-size: .8rem;
 }
